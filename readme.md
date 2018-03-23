@@ -1,59 +1,32 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# Bienvenue sur mon readme.md
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Ce qui a fonctionné:
+==
 
-## About Laravel
+* Le CRUD dans son ensemble, mis à part quelques erreurs d'inattention qui m'ont ralenties.
+* Le CSS avec Less, qui m'a PRESQUE réconcilié avec le CSS.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Ce qui aurait pu mieux marché:
+==
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+* La mise en place du projet, avec la perte d'une demie journée à tenter de sauver PhpStorm (RIP).
+* La gestion de mon temps. Je me suis focalisé sur ce qui ne fonctionnait pas, au lieu de passer outre et d'avancer.
+* Le CSS, qui reste basique, mais le front n'est définitivement pas fait pour moi!
+* Le mise en place de l'authentification, qui a vraisemblablement subi une mise à jour très récente, ce qui m'a rendu la tache plus ardue. J'aurai aimé agrémenter le système existant avec une gestion plus poussée des users ( admin / simple user).
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+Ce qui n'a pas marché:
+==
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+* La mise en place des liaisons many-to-many, par manque de temps surtout, mais aussi par manque de maîtrise.
 
-## Laravel Sponsors
+Si c'était à refaire, comment ferais-tu?
+==
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
+* Sensiblement pareil que cette fois, en ne m'attardant pas sur mon IDE foiré pour continuer à travailler. J'aurais appris à en utiliser un 2ème en amont, histoire de moins être dans le flou que ces jours.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](http://www.pulsestorm.net/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
+De quoi es-tu vraiment fier?
+==
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+* D'avoir su, et pu rebondir aujourd'hui, parce qu'hier je faisais vraiment de l'huile, vu que le CR était en place, mais que le UD foirait complet ( merci les différentes orthographes des variables :) ). Du coup, à tête reposée, j'ai pu corriger ça assez rapidement et venir à bout d'un CRUD basique.
