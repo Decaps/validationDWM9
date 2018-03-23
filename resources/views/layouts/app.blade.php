@@ -16,7 +16,7 @@
                         <a href="{{ url('/home') }}">Accueil</a>
                         <a href="{{ url('/disksList') }}">Liste des disques</a>
                         <a href="{{ route('logout') }}" onclick="event.preventDefault();
-                           document.getElementById('logout-form').submit();">Deconnexion</a>
+                           document.getElementById('logout-form').submit();">Déconnexion</a>
 
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
                     @else

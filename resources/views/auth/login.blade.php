@@ -11,7 +11,7 @@
                 <span><strong>{{ $errors->first('email') }}</strong></span>
             @endif
             <label for="password">{{ __('Mot de passe') }}</label>
-            <input placeholder='mot de passe' id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+            <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
             @if ($errors->has('password'))
                 <span><strong>{{ $errors->first('password') }}</strong></span>
             @endif
